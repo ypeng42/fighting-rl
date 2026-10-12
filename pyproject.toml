@@ -1,0 +1,10 @@
+[project]
+name = "fighting-rl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "footsies-gym==1.0.0",
+    "jupyterlab>=4.6.4",
+]
