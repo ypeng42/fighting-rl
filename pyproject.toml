@@ -8,5 +8,8 @@ dependencies = [
     "footsies-gym==1.0.0",
     "jupyterlab>=4.6.4",
     "matplotlib>=3.11.2",
+    "numpy>=2",
     "torch>=2.14.1",
+    "transformer-lens==4.3.0",
+    "transformers>=5.9",
 ]
