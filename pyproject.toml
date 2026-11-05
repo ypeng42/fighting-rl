@@ -9,6 +9,8 @@ dependencies = [
     "jupyterlab>=4.6.4",
     "matplotlib>=3.11.2",
     "numpy>=2",
+    "python-dotenv>=1.2.4",
+    "together>=3.1.1",
     "torch>=2.14.1",
     "transformer-lens==4.3.0",
     "transformers>=5.9",
