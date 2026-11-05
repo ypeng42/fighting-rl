@@ -1160,6 +1160,7 @@ name = "fighting-rl"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "datasets" },
     { name = "footsies-gym" },
     { name = "jupyterlab" },
     { name = "matplotlib" },
@@ -1174,6 +1175,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "datasets", specifier = ">=5.0.1" },
     { name = "footsies-gym", specifier = "==1.0.0" },
     { name = "jupyterlab", specifier = ">=4.6.4" },
     { name = "matplotlib", specifier = ">=3.11.2" },
