@@ -1,0 +1,53 @@
+Model: Qwen/Qwen3.5-9B
+Endpoint: /v1/chat/completions
+Tokenizer: o200k_base (estimate, NOT exact DeepSeek billing tokens)
+
+Messages:
+  [0] system      :   1101 tokens |    5573 characters
+  [1] user        :      1 tokens |       5 characters
+  [2] user        :    166 tokens |     785 characters
+  [3] user        :     68 tokens |     268 characters
+  [4] assistant   :     15 tokens |      57 characters
+  [5] user        :      1 tokens |       5 characters
+
+Tools:
+  [0] ask_user_question: 297 tokens
+  [1] bash: 480 tokens
+  [2] create_goal: 116 tokens
+  [3] edit: 241 tokens
+  [4] get_goal: 41 tokens
+  [5] glob: 170 tokens
+  [6] grep: 159 tokens
+  [7] interrupt_agent: 108 tokens
+  [8] job_kill: 84 tokens
+  [9] job_list: 43 tokens
+  [10] job_output: 135 tokens
+  [11] list_agents: 140 tokens
+  [12] list_subagent_models: 109 tokens
+  [13] plugin_manager: 527 tokens
+  [14] present: 213 tokens
+  [15] read: 106 tokens
+  [16] read_image: 88 tokens
+  [17] schedule_create: 608 tokens
+  [18] schedule_edit: 304 tokens
+  [19] schedule_list: 116 tokens
+  [20] schedule_view: 48 tokens
+  [21] send_message: 119 tokens
+  [22] skill: 75 tokens
+  [23] subagent: 327 tokens
+  [24] subagent_fork: 258 tokens
+  [25] todo_write: 190 tokens
+  [26] update_goal: 198 tokens
+  [27] web_fetch: 63 tokens
+  [28] workflow: 745 tokens
+  [29] working_directory: 75 tokens
+  [30] write: 181 tokens
+
+System/developer content: 1101 tokens
+All tool schemas (JSON): 6337 tokens
+System/developer + tools: 7438 tokens
+All message content + tools: 7689 tokens
+
+Caution: message-role framing, provider serialization, and model-specific
+tokenization are NOT counted. User-role runtime injections may also add
+harness tokens; inspect each user message rather than assuming it is task text.
